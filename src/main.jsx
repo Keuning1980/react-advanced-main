@@ -6,6 +6,8 @@ import { EventsPage, loader as postListLoader } from "./pages/EventsPage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Root } from "./components/Root";
 
+import { EventEditForm } from "./components/EventEditForm";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -21,6 +23,10 @@ const router = createBrowserRouter([
         element: <EventPage />,
         // loader: postLoader,
         // action: addComment,
+      },
+      {
+        path: "/edit-event/:eventId",
+        element: <EventEditForm />,
       },
     ],
   },
