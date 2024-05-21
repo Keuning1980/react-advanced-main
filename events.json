@@ -64,6 +64,20 @@
       "location": "Shavasana Yoga School",
       "startTime": "2023-03-09T06:00:00.000Z",
       "endTime": "2023-03-09T07:00:00.000Z"
+    },
+    {
+      "title": "Test",
+      "description": "Test",
+      "image": "https://www.ctvnews.ca/polopoly_fs/1.5118552.1600965663!/httpImage/image.jpg_gen/derivatives/landscape_1020/image.jpg",
+      "location": "anna paulowna ",
+      "startTime": "2024-05-21T10:22",
+      "endTime": "2024-05-21T11:22",
+      "categoryIds": [
+        2,
+        1
+      ],
+      "createdBy": 2,
+      "id": 5
     }
   ],
   "categories": [
